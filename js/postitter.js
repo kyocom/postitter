@@ -92,7 +92,7 @@ function PosTWIT(user,count,css,width,height){
 		css += 'width:'+width+';';
 	}
 	if(!height){
-		css += 'height:6em;';
+		css += 'height:8em;';
 	}else{
 		css += 'height:'+height+';';
 	}
