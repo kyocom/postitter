@@ -3,15 +3,15 @@ postitter
 
 ## Description
 
-JavaScript to display your tweets like a Post-it
+JavaScript Library for display your tweets like a Post-it.
 
 see example : <http://www.kyo.com/postitter/>
 
-Doesn't need jQuery but Twitter API called .
+Doesn't need jQuery but Twitter API.
 
 ## How to use
 
-Just put 1 line code in html body.
+Just put 1 line code in html body like below.
 
 `<script type="text/javascript" src="js/postitter.js?user=username"></script>`
 
@@ -30,8 +30,7 @@ Just put 1 line code in html body.
 
 #### Example
 
-`<script type="text/javascript" src="js/postitter.js?user=abcjpn&count=15&height=12em"></script>
-`
+`<script type="text/javascript" src="js/postitter.js?user=abcjpn&count=15&height=12em"></script>`
 
 I will add some more options.
 
