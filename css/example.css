@@ -1,0 +1,130 @@
+/*
+	kyo.com
+	Version:0.1
+	Author:Kyo ICHIDA
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+*html{/*Win IE*/
+	scrollbar-base-color:#0A0502;
+	scrollbar-face-color:#0A0502;
+	scrollbar-highlight-color:#0A0502;
+	scrollbar-arrow-color:#B99660;
+	overflow:hidden;
+}
+body{
+	margin:0 auto;
+	color:#333;
+	font-weight:normal;
+	font-family:Stencil, Impact, Chicago, "Avant Garde Gothic", "ITC Avant Garde Gothic", "MS UI Gothic", Verdana, "Arial Black", Helvetica, sans-serif;
+	overflow:hidden;
+}
+img{border:0;}
+img#bg{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.bgwidth{
+	width:100%;
+}
+.bgheight{
+	height:100%;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	color:silver;
+}
+
+/* Links */
+a:link, a:visited{
+	color:#aaa;
+	text-decoration:none;
+}
+a:hover, a:active{
+	color:#9d9a96;
+}
+
+#wrapper, #header{
+	margin:48px 16px;
+}
+
+#header h1{
+	font-size:128px;
+	color:#ffea1f;
+	letter-spacing:20px;
+	text-shadow:#555 1px 2px 3px;
+}
+#header h1:first-letter{
+	color:#8b84c0;
+}
+#header p{
+	font-size:32px;
+	letter-spacing:12px;
+	text-shadow:#666 1px 2px 3px;
+}
+#header p:first-letter{
+	color:#00a1be;
+}
+#menu{
+	display:block;
+	position:absolute;
+	z-index:4;
+	top:3px;
+	left:0;
+	margin:0;
+	line-height:150%;
+	font-size:18px;
+}
+#menu ul,
+#menu ol{
+	list-style-type:none;
+	text-align:left;
+}
+#menu li{
+	float:left;
+	letter-spacing:1px;
+}
+#menu a{
+	display:block;
+	float:left;
+	padding:0 18px;
+	color:#3c8fc9;
+	text-shadow:#666 1px 2px 3px;
+	zoom:1;
+	filter:alpha(opacity=75);
+	opacity:0.75;
+	-moz-opacity:0.75;
+}
+#menu a:hover{
+	color:#7D62AA;
+	zoom:1;
+	filter:alpha(opacity=90);
+	opacity:0.9;
+	-moz-opacity:0.9;
+}
+#menu a:active{
+	margin:1px -1px -1px 1px;
+	text-shadow:#110066 0px 1px 3px;
+}
+
+#footer{
+	position:absolute;
+	bottom:2px;
+	right:8px;
+	z-index:3;
+	text-align:right;
+	zoom:1;
+	filter:alpha(opacity=75);
+	opacity:0.75;
+	-moz-opacity:0.75;
+}
+#footer p.genre{width:220px; height:14px; text-align:left;}
+#footer p.sitemap a{margin-right:8px; width:120px; height:14px; float:right; text-align:right;}

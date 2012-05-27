@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>postitter sample</title>
+<meta name="description" content="javascript to display your tweets like a Post-it" />
+<meta name="keywords" content="twitter api" />
+<meta name="author" content="Kyo ICHIDA" />
+<meta name="copyright" content="Kyo ICHIDA" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link href="css/example.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div id="header">
+<h1>postitter</h1>
+<p><a href="https://github.com/kyocom/postitter">github</a></p>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="http://www.kyo.com/" title="home">back to home</a></li>
+<li><a href="http://www.abcjapon.com/ja/portfolio/" title="works">works</a></li>
+<li><a href="http://twitter.com/abcjpn" title="twitter" onmouseover="flipostitter('twitter_update_list');">rollover to show and hide twitter</a></li>
+</ul>
+</div>
+
+<script type="text/javascript" src="js/postitter.js?user=abcjpn&count=15&height=12em"></script>
+
+<div id="footer">&copy; <a href="http://www.kyo.com/">Kyo ICHIDA</a>, Some <span id="Rights"><span id="Lefts">Rights</span></span> Reserved.</div>
+
+</body>
+</html>
