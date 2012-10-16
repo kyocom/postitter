@@ -166,7 +166,7 @@ function PosTWIT(user,count,css,width,height){
 	+ '<ul id="twitter_update_list" class="widget-list"><li>Loading...</li></ul>&nbsp;</div>'
 	+ '</div>'
 	+ '<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"><'
-	+ '/script><script type="text/javascript" src="http://twitter.com/statuses/user_timeline/'
+	+ '/script><script type="text/javascript" src="https://api.twitter.com/1/statuses/user_timeline/'
 	+ user
 	+ '.json?callback=twitterCallback2&amp;count='
 	+ count
