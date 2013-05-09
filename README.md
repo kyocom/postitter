@@ -5,7 +5,7 @@ postitter
 
 JavaScript Library to display your tweets like a Post-it.
 
-see example : <http://www.kyo.com/postitter/>
+see example : <http://kyocom.github.io/postitter/>
 
 Doesn't need jQuery but Twitter API.
 
@@ -13,7 +13,7 @@ Doesn't need jQuery but Twitter API.
 
 Just put 1 line code in html body like below.
 
-`<script type="text/javascript" src="js/postitter.js?user=username"></script>`
+`<script type="text/javascript" src="http://kyocom.github.io/postitter/js/postitter.js?user=username"></script>`
 
 
 ### option
@@ -30,7 +30,7 @@ Just put 1 line code in html body like below.
 
 #### Example
 
-`<script type="text/javascript" src="js/postitter.js?user=abcjpn&count=15&height=12em"></script>`
+`<script type="text/javascript" src="http://kyocom.github.io/postitter/js/postitter.js?user=abcjpn&count=15&height=12em"></script>`
 
 Twitter's decision to discontinue their unauthenticated v1.0 API means that this library will stop working at some time in 2013
 https://dev.twitter.com/docs/api/1.1/overview
